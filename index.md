@@ -8,15 +8,45 @@ This is only a test.
 
 \toc
 
-## Equations
+## Equations (Latex)
+
+$$ a² + b² = c² $$
+$$ \pi = \int_{-1}^1  \frac{dx}{\sqrt{1-x^2}} dx $$
 
 ## Julia Code
 
-## Table from a CSV file 
+A Hello World example :)
+```julia:./out1
+println("Hello, World!")
+```
 
-## Image
+\show{./out1}
 
-## Raw HTML
+Functions...
+
+```julia:./out2
+function add(x,y)
+    x + y
+end
+```
+
+with the output
+\show{./out2}
+
+And a fitting function call: 
+```julia:./out3
+add(5, 3)
+```
+
+\show{./out3}
+
+One more test:
+
+```julia:./out4
+rand(5,5)
+```
+\show{./out4}
+
 
 <!---
 # Franklin syntax sandbox
